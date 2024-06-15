@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # Load the dataset
-cust_data = pd.read_csv('C:/Users/Hitesh/Downloads/Mall_Customers.csv')
+cust_data = pd.read_csv('path_to_your_file')
 
 # Display the first few rows of the dataset
 print(cust_data.head())
